@@ -27,10 +27,10 @@ function Hero() {
                 and advancing community health across Ethiopia.
               </p>
               <div className="btn-group justify-content-center">
-                <a href="about.html" className="th-btn">
-                  Discover More
+                <a href="/about-us" className="th-btn">
+                  About Us
                 </a>
-                <a href="service.html" className="th-btn style4">
+                <a href="/service" className="th-btn style4">
                   See All Services
                 </a>
               </div>

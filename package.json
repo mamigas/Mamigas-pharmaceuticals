@@ -19,7 +19,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-use-cart": "^1.14.0",
-    "sonner": "^2.0.4"
+    "sonner": "^2.0.4",
+    "swiper": "^11.2.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

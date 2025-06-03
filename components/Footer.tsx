@@ -64,9 +64,7 @@ function Footer() {
                       <li>
                         <a href="/products">Products</a>
                       </li>
-                      <li>
-                        <a href="/appointment">Appointment</a>
-                      </li>
+                      
                       <li>
                         <a href="/blog">Blog</a>
                       </li>

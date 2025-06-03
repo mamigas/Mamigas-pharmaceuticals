@@ -120,14 +120,14 @@ function Header() {
 
                 {/* Mobile Hamburger Button */}
                 {!isMobileMenuOpen && (
-                  <div className="col-auto d-lg-none ">
+                  <div className="col-auto d-lg-none">
+                    <CartButton />
                     <button
                       onClick={toggleMobileMenu}
-                      className="th-menu-toggle"
+                      className="th-menu-toggle mx-3 rounded-full"
                     >
                       <i className="far fa-bars"></i>
                     </button>
-                    <CartButton />
                   </div>
                 )}
               </div>
@@ -193,25 +193,15 @@ function Header() {
                     id: 4,
                   },
                   {
-                    name: "Appointment",
-                    href: "/appointment",
-                    id: 5,
-                  },
-                  {
                     name: "Blog",
                     href: "/blog",
-                    id: 6,
+                    id: 5,
                   },
                   {
                     name: "Contact",
                     href: "/contact",
-                    id: 7,
+                    id: 6,
                   },
-                  // {
-                  //   name: "Get a Quote",
-                  //   href: "/get-a-quote",
-                  //   id: 8,
-                  // },
                 ].map((item) => (
                   <div
                     key={item.id}
