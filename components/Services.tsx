@@ -35,7 +35,7 @@ function Services() {
                   <img src="assets/img/icon/service_card_1.svg" alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">Reliable Medicine Supply</a>
+                  <a href="/service">Reliable Medicine Supply</a>
                 </h3>
                 <p className="box-text">Medicine Supply</p>
                 <a href="/service" className="th-btn btn-sm style2 theme-color">
@@ -55,7 +55,7 @@ function Services() {
                   <img src="assets/img/icon/service_card_1.svg" alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">24/7 Medication Access</a>
+                  <a href="/service">24/7 Medication Access</a>
                 </h3>
                 <p className="box-text">Medication Access</p>
                 <a href="/service" className="th-btn btn-sm style2 theme-color">
@@ -75,7 +75,7 @@ function Services() {
                   <img src="assets/img/icon/service_card_1.svg" alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">On-Time Medicine Delivery</a>
+                  <a href="/service">On-Time Medicine Delivery</a>
                 </h3>
                 <p className="box-text">Medicine Delivery</p>
                 <a href="/service" className="th-btn btn-sm style2 theme-color">
@@ -95,7 +95,7 @@ function Services() {
                   <img src="assets/img/icon/service_card_1.svg" alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">
+                  <a href="/service">
                     Seamless Prescription Delivery
                   </a>
                 </h3>
