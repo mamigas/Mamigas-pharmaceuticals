@@ -77,7 +77,7 @@ function WorkingHours() {
                 <img src="assets/img/mamigas/mamigas-why-chhose.jpg" alt="Doctor" />
               </div>
               <div className="img2">
-                <img src="/assets/img/normal/form_1_2.jpg" alt="Clinic" />
+                <img src="assets/img/mamigas/mamigas-faq.jpg" alt="Clinic" />
               </div>
             </div>
 
