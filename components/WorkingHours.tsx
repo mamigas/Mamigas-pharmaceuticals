@@ -74,7 +74,7 @@ function WorkingHours() {
           <div className="form-wrap">
             <div className="img-box4">
               <div className="img1">
-                <img src="/assets/img/normal/form_1_1.jpg" alt="Doctor" />
+                <img src="assets/img/mamigas/mamigas-why-chhose.jpg" alt="Doctor" />
               </div>
               <div className="img2">
                 <img src="/assets/img/normal/form_1_2.jpg" alt="Clinic" />
