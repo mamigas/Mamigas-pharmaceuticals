@@ -15,7 +15,7 @@ export const POST = async (req: NextRequest) => {
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Message:</strong> ${message}</p>
-        <p><strong>Total Price:</strong> $${total.toFixed(2)}</p>
+        <p><strong>Total Price:</strong> ETB: ${total.toFixed(2)}</p>
         <p><strong>Products:</strong></p>
         <ul>${productListHtml}</ul>
       `;
