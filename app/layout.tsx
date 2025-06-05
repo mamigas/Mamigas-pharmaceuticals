@@ -13,12 +13,13 @@ import Footer from "@/components/Footer";
 import ClientCartProvider from "./ClientCartProvider";
 
 export const metadata = {
+  metadataBase: new URL("https://mamigaspharmaceuticals.com"),
   title: "Mamigas Pharmaceuticals | Trusted Medicine Supplier",
   description:
     "Mamigas Pharmaceuticals is a reliable pharmaceutical supplier based in Ethiopia. We provide high-quality medicines to hospitals and distributors, supporting better healthcare through dependable service and ethical practices.",
-  verification: {
-    google: "XUp4JdVHCCfCCdsNO19XllztF0mlUSaAn5_VjbOayHw", // Update if different
-  },
+  // verification: {
+  //   google: "XUp4JdVHCCfCCdsNO19XllztF0mlUSaAn5_VjbOayHw", // Update if different
+  // },
   openGraph: {
     title: "Mamigas Pharmaceuticals | Trusted Medicine Supplier",
     description:
