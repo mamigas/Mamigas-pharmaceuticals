@@ -160,7 +160,7 @@ function Product({ products, productsCategory }: ProductProps) {
                           {product.title}
                         </a>
                       </h3>
-                      <span className="price">${product.price.toFixed(2)}</span>
+                      <span className="price">ETB: {product.price.toFixed(2)}</span>
                     </div>
                   </div>
                 </div>
@@ -221,7 +221,7 @@ function Product({ products, productsCategory }: ProductProps) {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="product-about">
-                  <p className="price">${selectedProduct.price.toFixed(2)}</p>
+                  <p className="price">ETB: {selectedProduct.price.toFixed(2)}</p>
                   <h2 className="product-title">{selectedProduct.title}</h2>
                   <p className="text">{selectedProduct.description}</p>
                   <div className="mt-2 link-inherit">

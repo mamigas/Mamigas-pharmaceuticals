@@ -170,7 +170,7 @@ function Cart() {
                         </td>
                         <td>
                           <span className="amount">
-                            <bdi>${(quantity * item.price).toFixed(2)}</bdi>
+                            <bdi>ETB: {(quantity * item.price).toFixed(2)}</bdi>
                           </span>
                         </td>
                         <td>
@@ -189,7 +189,7 @@ function Cart() {
               </table>
 
               <div className="cart-total text-end mt-4">
-                <h6>Total: ${cartTotal.toFixed(2)}</h6>
+                <h6>Total: ETB: {cartTotal.toFixed(2)}</h6>
               </div>
 
               <div className="row mt-4">
