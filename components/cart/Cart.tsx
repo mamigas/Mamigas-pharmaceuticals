@@ -129,7 +129,7 @@ function Cart() {
                         </td>
                         <td>
                           <span className="amount">
-                            <bdi>${item.price.toFixed(2)}</bdi>
+                            <bdi>ETB: {item.price.toFixed(2)}</bdi>
                           </span>
                         </td>
                         <td>
