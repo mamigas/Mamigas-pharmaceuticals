@@ -18,7 +18,7 @@ export const metadata = {
   description:
     "Mamigas Pharmaceuticals is a reliable pharmaceutical supplier based in Ethiopia. We provide high-quality medicines to hospitals and distributors, supporting better healthcare through dependable service and ethical practices.",
   // verification: {
-  //   google: "XUp4JdVHCCfCCdsNO19XllztF0mlUSaAn5_VjbOayHw", // Update if different
+  //   google: "", // Update if different
   // },
   openGraph: {
     title: "Mamigas Pharmaceuticals | Trusted Medicine Supplier",
