@@ -23,11 +23,11 @@ export const metadata = {
     title: "Mamigas Pharmaceuticals | Trusted Medicine Supplier",
     description:
       "Mamigas Pharmaceuticals supplies certified, affordable medicines to hospitals and pharmaceutical distributors across Ethiopia.",
-    url: "https://mamigaspharma.com", // Replace with your actual domain
+    url: "https://mamigaspharmaceuticals.com", // Replace with your actual domain
     siteName: "Mamigas Pharmaceuticals",
     images: [
       {
-        url: "/mamigas-og-image.png", // Replace with your actual image path
+        url: "/favicon.ico", // Replace with your actual image path
         alt: "Mamigas Pharmaceuticals Preview",
         width: 1200,
         height: 630,
@@ -45,7 +45,7 @@ export const metadata = {
     creator: "@mamigaspharma", // Replace with your actual Twitter handle if available
     images: [
       {
-        url: "/mamigas-meta-image.png", // Replace with your actual image path
+        url: "/favicon.ico", // Replace with your actual image path
         alt: "Mamigas Pharmaceuticals Preview",
       },
     ],
