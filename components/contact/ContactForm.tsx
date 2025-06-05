@@ -34,11 +34,11 @@ function ContactForm() {
         toast.success("Email sent successfully 😊");
         setForm({ name: "", email: "", phone: "", message: "" });
       } else {
-        toast.error("Something went wrong 😔");
+        toast.error("Something went wrong, please try again 😔");
       }
     } catch (err) {
       console.error(err);
-      toast.error("Something went wrong 😔");
+      toast.error("Something went wrong, please try again 😔");
     } finally {
       setLoading(false);
     }

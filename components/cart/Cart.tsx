@@ -58,11 +58,11 @@ function Cart() {
           emptyCart();
         }, 3000);
       } else {
-        toast.error("Something went wrong 😔");
+        toast.error("Something went wrong, please try again 😔");
       }
     } catch (err) {
       console.error(err);
-      toast.error("Something went wrong 😔");
+      toast.error("Something went wrong, please try again 😔");
     } finally {
       setLoading(false);
     }
