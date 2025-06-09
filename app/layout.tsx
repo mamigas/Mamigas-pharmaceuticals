@@ -12,14 +12,16 @@ import { useEffect } from "react";
 import Footer from "@/components/Footer";
 import ClientCartProvider from "./ClientCartProvider";
 
+// google-site-verification=VrlRFuTxfSfr7HzML_UAqijG8pZr2N-7Rj1n_zStfL4
+
 export const metadata = {
   metadataBase: new URL("https://mamigaspharmaceuticals.com"),
   title: "Mamigas Pharmaceuticals | Trusted Medicine Supplier",
   description:
     "Mamigas Pharmaceuticals is a reliable pharmaceutical supplier based in Ethiopia. We provide high-quality medicines to hospitals and distributors, supporting better healthcare through dependable service and ethical practices.",
-  // verification: {
-  //   google: "", // Update if different
-  // },
+  verification: {
+    google: "VrlRFuTxfSfr7HzML_UAqijG8pZr2N-7Rj1n_zStfL4", // Update if different
+  },
   openGraph: {
     title: "Mamigas Pharmaceuticals | Trusted Medicine Supplier",
     description:
